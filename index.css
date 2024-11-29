@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    background-image: url(./image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid greenyellow;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.card1 {
+    height: 150px;
+    width: 350px;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 35px;
+}
+
+.h1 {
+    padding-top: 15px;
+    padding-left: 25px;
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.card2 {
+    display: flex;
+    height: 80px;
+    width: 400px;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 35px;
+    
+}
+
+.h2 {
+    display: flex;
+    align-items: end;
+    padding-left: 50px;
+    color: white;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.card3 {
+    
+    height: 150px;
+    width: 400px;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 35px;
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    padding-left: 25px;
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    color: red;
+    text-align: center;
+    border: 5px dashed red;
+    height: 700px;
+    width: 500px;
+    justify-content: center;
+}
+
+input {
+    margin-top: 5px;
+}
+
+.offer {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: 7px solid gray;
+    background-color: rgb(70, 160, 160);
+    text-align: center;
+}
+
+.p1 {
+    margin-top: 100px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.p2 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-top: 50px;
+    height: 100px;
+    width: 500px;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.menu1,.menu2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.item{
+    /* height: 275px; */
+    width: 25%;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: darkblue;
+}
+
+.food{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+li{
+    margin-left: 100px;
+    font-size: larger;
+}
+
+.font{
+    /* display: inline-block; */
+}
